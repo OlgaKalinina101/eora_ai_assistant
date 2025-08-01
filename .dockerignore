@@ -1,0 +1,47 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# IDE and editor configs
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Env files
+.env
+
+# Test files and logs
+*.log
+*.pytest_cache/
+.coverage
+
+# Data artifacts
+data/eora_cases.json
+
+# Vector store contents (но сохраняем папку)
+vector_store/*
+!vector_store/.gitkeep
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Build outputs
+dist/
+build/
+*.egg-info/

@@ -1,0 +1,32 @@
+# 1. Игнорировать .env
+.env
+
+# 2. Игнорировать содержимое vector_store, но оставить саму папку
+vector_store/*
+!vector_store/.gitkeep
+
+# 3. Игнорировать конкретный файл
+data/eora_cases.json
+
+# Общие рекомендации для Python-проектов:
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.log
+
+# IDE и окружения
+.vscode/
+.idea/
+.venv/
+env/
+venv/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS-specific
+.DS_Store
+Thumbs.db

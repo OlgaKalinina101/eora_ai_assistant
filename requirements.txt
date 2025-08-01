@@ -1,0 +1,12 @@
+playwright
+beautifulsoup4
+tqdm
+pymupdf
+chromadb
+pydantic-settings
+llama_index
+sentence_transformers
+psutil
+langgraph
+fastapi
+openai
