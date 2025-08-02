@@ -9,7 +9,8 @@ from utils.logger import setup_logger
 logger = setup_logger("chroma_client")
 
 def get_chroma_client() -> chromadb.ClientAPI:
-    return chromadb.PersistentClient(path=settings.CHROMA_DB_PATH)
+    os.makedirs(CHROMA_DB_PATH, exist_ok=True)  # создаёт, если не существует
+    return chromadb.PersistentClient(path=CHROMA_DB_PATH)
 
 def get_chroma_collection(client: chromadb.ClientAPI) -> Collection:
     """Инициализирует и возвращает коллекцию ChromaDB.
