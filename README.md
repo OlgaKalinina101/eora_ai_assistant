@@ -44,6 +44,7 @@ EORA_AI_assistant_rag/
 │       ├── graph.py            # Сборка рабочего процесса LangGraph
 │       ├── chunk_selector.py   # Поиск релевантных фрагментов в Chroma
 │       ├── nodes.py            # Узлы LangGraph
+│       ├── prompt_template.txt # Контекстный промпт для модели
 │       └── types.py            # Типы состояния пайплайна
 │   ├── __init__.py
 │   └── openai_client.py        # Конфигурация клиента OpenAI
