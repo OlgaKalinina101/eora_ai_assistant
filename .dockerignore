@@ -1,20 +1,20 @@
-# Python cache
+# Кеш
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 *.pyc
 
-# Virtual environments
+# Виртуальное окружение
 .venv/
 env/
 venv/
 
-# IDE and editor configs
+# IDE конфиг
 .idea/
 .vscode/
 
-# System files
+# Системные файлы
 .DS_Store
 Thumbs.db
 
@@ -22,18 +22,18 @@ Thumbs.db
 .git/
 .gitignore
 
-# Env files
+# Переменные окружения
 .env
 
-# Test files and logs
+# Файлы тестов и логи
 *.log
 *.pytest_cache/
 .coverage
 
-# Data artifacts
+# Обработанные данные
 data/eora_cases.json
 
-# Vector store contents (но сохраняем папку)
+# Векторная БД (но сохраняем папку)
 vector_store/*
 !vector_store/.gitkeep
 
